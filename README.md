@@ -1,5 +1,16 @@
 # Predictive-Analytics-U.S.-Hospital-Utilization-Forecast
-A time series and regression-based analysis of U.S. hospital admissions and average length of stay, featuring dual predictive modeling and confidence interval visualization.
+Data Engineering Add-On: Time-Series Pipeline & Operational Forecasting
+
+This project implements a comprehensive data engineering workflow for processing over 45 years of national hospital utilization data. The pipeline ingests, cleans, transforms, and models long-term operational metrics, such as industrial sensor data, IoT telemetry, and power-generation asset performance, aligning closely with real-world Data Engineer roles in the energy and utilities sector.
+
+- Data Engineering Highlights
+- Built an automated time-series data pipeline using Python + SQL, including data ingestion, cleaning, feature extraction, and structuring for modeling.
+- Processed multi-decade operational datasets (1975–2020), similar to industrial equipment logs, system telemetry, and IoT time-series.
+- Engineered forecasting models to predict hospital admissions and average length of stay, demonstrating operational trend modeling used for capacity planning.
+- Performed anomaly and deviation analysis to detect unusual spikes tied to policy shifts, system inefficiencies, and macro-level disruptions.
+- Developed a dual forecasting dashboard with 95% confidence intervals, enabling clear comparison of historical vs. predicted system behavior.
+
+Demonstrated how time-series forecasting supports decision-making, resource allocation, and operational optimization — core Data Engineering capabilities.
 ---
 # 📄 Project Overview
 This project examines national hospital utilization patterns in the United States from 1975 to 2020, utilizing data from the Centers for Disease Control and Prevention (CDC).
